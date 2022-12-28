@@ -14,9 +14,11 @@ import Payment from "webpages/Payment";
 import Account from "webpages/Account";
 import PaymentFailed from "webpages/PaymentFailed";
 
-export const URL = process.env.SERVER_URL;
+//export const URL = process.env.SERVER_URL;
 
 //export const URL = "http://localhost:6001";
+
+export const URL = "https://e-chiper-electronics-api.onrender.com";
 
 function App() {
 
