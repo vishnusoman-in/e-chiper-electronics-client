@@ -51,15 +51,15 @@ const Admingallery = () => {
         
         getProducts();
         
-      }, []); 
+      }, [loggedasadmin]); 
 
       
-        console.log(productcollection)
+      //  console.log(productcollection)
 
     return (
     <Box display="Grid">
         <Typography m="2rem" textAlign="center" color="green">Database Product List</Typography>
-      {productcollection.map(
+      { loggedasadmin && productcollection.map(
 
         ({_id,name,price,description,categoryname,picturePath,rating,comments,}) => (<>
 
