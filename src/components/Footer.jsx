@@ -83,6 +83,7 @@ const Footer = () => {
                 101/AB, ravipuram
                 Kochi, india
                 </Typography>
+                <Typography color="whitesmoke">Developer: Vishnu Soman</Typography>
             </Typography>
 
         </Box>
@@ -135,6 +136,7 @@ const Footer = () => {
             101/AB, ravipuram
             Kochi, india
             </Typography>
+            <Typography color="whitesmoke">Developer: Vishnu Soman</Typography>
         </Typography>
 
     </Box>
@@ -188,6 +190,7 @@ const Footer = () => {
             101/AB, ravipuram
             Kochi, india
             </Typography>
+            <Typography color="whitesmoke">Developer: Vishnu Soman</Typography>
         </Typography>
 
     </Box>

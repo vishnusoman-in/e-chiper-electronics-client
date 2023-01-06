@@ -15,6 +15,8 @@ import {KeyboardDoubleArrowLeft,KeyboardDoubleArrowRight,ShoppingCart} from '@mu
 
 import { useNavigate } from "react-router-dom";
 
+//import gear from 'assets/gear.gif'
+
 //const URL = process.env.SERVER_URL;
 
 import { URL } from 'App.js'
@@ -164,6 +166,20 @@ const Productimglist = ({ size = "50px",catego,categorytitle, }) => {
 
       <Box className="imglist-others"  ref={connectbox} sx={{mb: 2, display:"flex", width: (isDesktop ? 1500: 400), height: 240,overflowX: "hidden", overflowY: "hidden",borderBottom: 1, borderColor: "#E8E8E8"}}>
 <>
+
+{!productcategory.result &&
+
+<Box display="Grid" marginLeft="5rem" marginTop="4rem">
+<Box marginLeft="3rem">
+<img src="https://res.cloudinary.com/dexpbdlyc/image/upload/v1672978408/picture/gear_okdbap.gif"
+width="40%"
+height="50%"
+/>
+</Box>
+<Typography color="white" marginBottom="4rem">Server initial loading...</Typography>
+</Box>
+
+}
          
           { productcategory.result && productcategory.result.map(
 
